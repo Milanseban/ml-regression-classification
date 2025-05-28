@@ -11,19 +11,21 @@ This project showcases two classic machine learning problems — one classificat
 
 ## Project Structure
 
+```
 ml-regression-classification/
 ├── data/
-│ ├── Titanic_Dataset_Classification.csv
-│ └── Housing_Dataset_Regression.csv
+│   ├── Titanic_Dataset_Classification.csv
+│   └── Housing_Dataset_Regression.csv
 ├── ml_regression_classification_analysis.ipynb
 └── README.md
+```
 
 ## Tasks Overview
 
-| Task | Models Used | Evaluation Metrics |
-|------|-------------|--------------------|
-| **Titanic Classification** | Logistic Regression, Random Forest, KNN, SVM | Accuracy |
-| **Housing Regression**     | Linear Regression, Random Forest, Ridge, Lasso | RMSE |
+| Task                   | Models Used                                   | Evaluation Metrics |
+|------------------------|-----------------------------------------------|--------------------|
+| Titanic Classification | Logistic Regression, Random Forest, KNN, SVM  | Accuracy           |
+| Housing Regression     | Linear Regression, Random Forest, Ridge, Lasso| RMSE               |
 
 ## Highlights
 
@@ -39,16 +41,24 @@ ml-regression-classification/
    ```bash
    git clone https://github.com/your-username/ml-regression-classification.git
    cd ml-regression-classification
+   ```
 
-2.Open the notebook:
-jupyter notebook ml_regression_classification_analysis.ipynb
+2. Open the notebook:
+   ```bash
+   jupyter notebook ml_regression_classification_analysis.ipynb
+   ```
 
-3.Ensure you have the required libraries installed:
-pip install pandas numpy matplotlib seaborn scikit-learn
+3. Install the required libraries:
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
 
+4. Run all cells in the notebook to reproduce the results.
 
-4.Run all cells in the notebook to reproduce the results.
+## Purpose
 
-Purpose
 This project demonstrates practical applications of supervised learning methods for both regression and classification problems. It is designed for learning, showcasing, and further extension.
 
+## Author
+
+**Milan Sebastian**
